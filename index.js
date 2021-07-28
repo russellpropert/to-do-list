@@ -6,7 +6,7 @@ const App = () => {
         isCompleted: false,
       },
       {
-        text: 'watch olimpic recaps',
+        text: 'watch olympic recaps',
         isCompleted: false,
       },
       {
