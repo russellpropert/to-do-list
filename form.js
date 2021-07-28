@@ -16,7 +16,8 @@ const TodoForm = ({todos, setTodos}) => {
           className="input"
           value={value}
           placeholder="Add Todo ..."
-          onChange={e => setValue(e.target.value)} 
+          onChange={e => setValue(e.target.value)}
+          autoFocus
         />
       </form>
   );

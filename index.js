@@ -25,9 +25,7 @@ const App = () => {
 
   return (
     <>
-      {todos.map((todo, i) => 
-        <div className="todo" key={i} id={i} onClick={removeTodo}>{todo.text}</div>
-      )}
+      <Todo todos={todos} removeTodo={removeTodo} />
       <TodoForm todos={todos} setTodos={setTodos} />
     </>
   );
