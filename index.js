@@ -24,10 +24,12 @@ const App = () => {
   }
 
   return (
-    <>
-      <Todo todos={todos} removeTodo={removeTodo} />
+    <div className="app">
+      <div>
+        <Todo todos={todos} removeTodo={removeTodo} />
+      </div>
       <TodoForm todos={todos} setTodos={setTodos} />
-    </>
+    </div>
   );
 }
 
