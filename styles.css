@@ -1,22 +1,41 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #E8E8F0;
 }
 
-code {
-  font-family: Arial, Helvetica, sans-serif;
+.card {
+  text-align: center;
+  margin: auto;
+  max-width: 400px;
+  border: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  background-color: #B8D0F0;
+}
+
+h1 {
+  font-family: 'MonteCarlo', cursive;
+  margin: 0;
+  padding: 0px;
+  font-size: 45px;
+  height: 70px;
+}
+
+hr {
+  width: 95%;
+}
+
+p {
+  padding: 0px 15px;
 }
 
 .app {
-  background: #209CEE;
+  background-color: #574890;
   padding: 30px;
-  height: 100vh;
 }
 
 .todo-list {
-  background: #E8E8E8;
   border-radius: 4px;
   padding: 5px;
   max-width: 400px;
@@ -24,10 +43,12 @@ code {
 
 .todo{
   background: #FFF;
-  box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
-  padding: 3px 10px;
+  padding: 6px 10px;
   font-size: 24px;
   margin-bottom: 6px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
   border-radius: 3px;
   display: flex;
   align-items: center;
@@ -37,8 +58,11 @@ code {
 .input {
   width: 100%;
   box-sizing: border-box;
-  border: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
   border-radius: 4px;
+  margin-top: 10px;
   box-shadow: none;
   padding: 1rem;
   height: 2.25em;
