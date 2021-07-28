@@ -1,2 +1,10 @@
-# to-do-list
-MIT xPRO MERN course week 14 ToDo List project
+# To-do List Excercise
+
+## Description
+This exercise taught how to change state with React and how to refactor code using multiple files.
+
+## How To Run
+This exercise can be run by forking the repository (button in upper left) and cloning it to your machine. If you don't have npm installed, you can get it by installing node.js (https://nodejs.org/en/download/). Run 'npx http-server' from the command line to run a temprarly http-server. You can then access the page by going to localhost:8080 in your web browser.
+
+## Future Improvements
+Adding checkboxes to indicate if a task was completed yet or not.
