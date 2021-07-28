@@ -16,16 +16,6 @@ const App = () => {
     ]
   );
 
-  const [value, setValue] = React.useState('');
-
-  const handleSubmit = e => {
-    e.preventDefault();
-    if (!value) return;
-    const newTodos = [{text: value, isCompleted: false}, ...todos];
-    setTodos(newTodos);
-    setValue('');
-  }
-
   const removeTodo = e => {
     const index = Number(e.target.id);
     let temp = [...todos];
@@ -38,15 +28,7 @@ const App = () => {
       {todos.map((todo, i) => 
         <div className="todo" key={i} id={i} onClick={removeTodo}>{todo.text}</div>
       )}
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          className="input"
-          value={value}
-          placeholder="Add Todo ..."
-          onChange={e => setValue(e.target.value)} 
-        />
-      </form>
+      <TodoForm todos={todos} setTodos={setTodos} />
     </>
   );
 }
