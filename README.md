@@ -8,3 +8,5 @@ This exercise can be run by forking the repository (button in upper left) and cl
 
 ## Future Improvements
 Adding checkboxes to indicate if a task was completed yet or not.
+
+![To-do list screenshot](Share_Your_Styled_ToDo_List.png)
