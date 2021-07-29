@@ -1,5 +1,7 @@
 # To-do List Excercise
 
+![To-do list screenshot](Share_Your_Styled_ToDo_List.png)
+
 ## Description
 This exercise taught how to change state with React and how to refactor code using multiple files.
 
@@ -8,6 +10,3 @@ This exercise can be run by forking the repository (button in upper left) and cl
 
 ## Future Improvements
 Adding checkboxes to indicate if a task was completed yet or not.
-&nbsp;
-&nbsp;
-![To-do list screenshot](Share_Your_Styled_ToDo_List.png)
